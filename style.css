@@ -1,0 +1,17 @@
+* {
+  background-color: whitesmoke;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+table {
+  outline: solid black;
+}
+
+th, td {
+  border: solid 1px gray;
+  padding: 3px;
+}
