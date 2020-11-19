@@ -3,8 +3,16 @@
   box-sizing: border-box;
 }
 
+main {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
 h1 {
   text-align: center;
+  width: 100%;
 }
 
 table {
@@ -14,4 +22,28 @@ table {
 th, td {
   border: solid 1px gray;
   padding: 3px;
+}
+
+fieldset {
+  max-width: 100%;
+  display: flex;
+}
+
+hr {
+  width: 100%;
+  outline: black solid 1px;
+}
+
+.form-label {
+  padding: 1em;
+}
+
+#array-read-result {
+  display: flex;
+  padding: 1em;
+}
+
+#sample-one {
+  background-color: darkcyan;
+  
 }
