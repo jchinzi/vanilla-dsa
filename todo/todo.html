@@ -1,0 +1,53 @@
+<!-- Adapted from Coding The Smart Way's Tutorial -->
+<!-- https://codingthesmartway.com/building-a-vanilla-javascript-todo-app-from-start-to-finish-ep-1-introduction-project-setup/ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple To Do App</title>
+
+  <!-- Import CSS File -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google Font - Raleway -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+
+</head>
+<body class="container">
+  <header class="logo">
+    <nav>
+      <ul>
+        <li>
+          <a href="../index.html">Home</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main">
+    <h1>Vanilla Javascript Todo App</h1>
+    
+    <form id="taskForm">
+      <input type="text" placeholder="New Task...">
+      <button type="submit"><i class="far fa-calendar-plus"></i></button>
+    </form>
+
+    <div class="todoList">
+      <ul id="todoUL">
+      </ul>
+      <a class="clearAll" id="clearAll">Clear All</a>
+    </div>
+
+  </main>
+  <footer>
+
+  </footer>
+    <!-- Import Javascript File -->
+    <script type = "text/javascript" src="app.js"></script>
+</body>
+</html>
